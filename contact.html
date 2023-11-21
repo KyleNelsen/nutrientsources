@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style_contact.css">
+	<title>NutrientSources</title>
+	<link rel="icon" href="https://www.nutrientsources.net/wp-content/uploads/2022/12/logo-1.png" type="image/x-icon">
+</head>
+
+<body>
+	<header>
+		<div class="top-box">
+			<h1><a href="https://www.nutrientsources.net">NutrientSources</a></h1>
+			<a href="https://www.nutrientsources.net"><img src="https://www.nutrientsources.net/wp-content/uploads/2022/12/logo-1.png" alt="logo.png" width="40" height="50"></a>
+			<p class="contact"><a href="https://www.nutrientsources.net/contact">Contact</a></p>
+			<p class="privacy"><a href="https://www.nutrientsources.net/privacy">Privacy</a></p>
+			<p class="donate"><a href="https://www.paypal.com/donate/?hosted_button_id=995K7SJ3ME7AN" target="_blank">Donate</a></p>
+			<p class="faq"><a href="https://www.nutrientsources.net/faq">FAQ</a></p>
+		</div>
+	</header>
+
+	<div class="fcf-body">
+	    <div id="fcf-form">
+	    <h3 class="fcf-h3">Contact us</h3>
+
+	    <form id="fcf-form-id" class="fcf-form-class" method="post" onsubmit="sendEmail(); reset(); return false;">
+
+	        <div class="fcf-form-group">
+	            <label for="Email" class="fcf-label">Your email address</label>
+	            <div class="fcf-input-group">
+	                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+	            </div>
+	        </div>
+
+	        <div class="fcf-form-group">
+	            <label for="Message" class="fcf-label">Your message</label>
+	            <div class="fcf-input-group">
+	                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+	            </div>
+	        </div>
+
+	        <div class="fcf-form-group">
+	            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+	        </div>
+
+	    </form>
+	    </div>
+	</div>
+
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+	<script>
+		function sendEmail(){
+			Email.send({
+				Host : "smtp.elasticemail.com",
+				Port : "2525"
+				Username : "NutrientSources@gmail.com",
+				Password : "8DA88EA4CDFFB34F48D2ECB7D4855256A44C",
+				To : "NutrientSources@gmail.com",
+				From : document.getElementById("Email").value,
+				Subject : "Website Contact Form",
+				Body : document.getElementById("Message").value
+			}).then(
+			message => alert(message));
+		}
+	</script>
+
+	<footer>
+		<div class='bot-box'>
+			<p class="home_foot"><a href="https://www.nutrientsources.net">Home</a></p>
+			<p class="contact_foot"><a href="https://www.nutrientsources.net/contact">Contact</a></p>
+			<p class="privacy_foot"><a href="https://www.nutrientsources.net/privacy">Privacy</a></p>
+			<p class="donate_foot"><a href="https://www.paypal.com/donate/?hosted_button_id=995K7SJ3ME7AN" target="_blank">Donate</a></p>
+			<p class="faq_foot"><a href="https://www.nutrientsources.net/faq">FAQ</a></p>
+			<p class="updated">Last updated Apr 9, 2023</p>
+		</div>
+	</footer>
+</body>

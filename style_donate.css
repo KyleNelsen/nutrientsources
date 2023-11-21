@@ -1,0 +1,762 @@
+body{
+	background-color:#00000F;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1vw;
+}
+
+/*default header*/
+
+.top-box{
+	position: absolute;
+	background-color:#333;
+	color:#fff;
+	min-height:6.85rem;
+	top:0;
+	left:0;
+	right: 0;
+	margin:auto;
+	border:0;
+	padding:0;
+	width: 100vw;
+	min-width: 200px;
+	font-size:1rem;
+}
+
+.top-box h1{
+	position: absolute;
+	left:7.5rem;
+	top:2.25rem;
+	padding:0rem;
+	margin:0rem;
+	width: 5%;
+	font-size:2rem;
+}
+
+.top-box a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+
+.top-box img{
+	display: block;
+	position: absolute;
+	padding:.25rem;
+	margin:0rem;
+	top:-.2rem;
+	width:auto;
+	max-width: 230px;
+	height:auto;
+	max-height: 95px;
+}
+
+.faq a{
+	position: absolute;
+	top:5rem;
+	right:24rem;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.faq a:hover{
+	color:white;
+}
+
+.donate a{
+	position: absolute;
+	top:5rem;
+	right:17rem;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.donate a:hover{
+	color:white;
+}
+
+.contact a{
+	position: absolute;
+	top:5rem;
+	right:10rem;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.contact a:hover{
+	color:white;
+}
+
+.privacy a{
+	position: absolute;
+	top:5rem;
+	right:3rem;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.privacy a:hover{
+	color:white;
+}
+
+.yellow-hover a{
+	text-decoration: none;
+	color:white;
+}
+
+.yellow-hover a:hover{
+	color:yellow;
+}
+
+/*1000px header*/
+
+@media screen and (max-width: 1000px) {
+  	.top-box{
+  		left: 0;
+		right: 0;
+		position: absolute;
+		background-color:#333;
+		color:#fff;
+		min-height:6.85rem;
+		top:0;
+		margin:auto;
+		border:0;
+		padding:0;
+		width: 100vw;
+		min-width: 200px;
+		font-size:1rem;
+	}
+
+	.top-box h1{
+		position: absolute;
+		left:7.5rem;
+		top:1.25rem;
+		padding:0rem;
+		margin:0rem;
+		width: 5%;
+		font-size:2rem;
+	}
+
+	.top-box a{
+		color: rgb(255,255,255);
+		text-decoration: none;
+	}
+
+	.top-box img{
+		position: absolute;
+		padding:.25rem;
+		margin:0rem;
+		top:-.2rem;
+		width:5rem;
+		max-width: 230px;
+		height:auto;
+		max-height: 95px;
+	}
+
+	.faq a{
+		position: absolute;
+		top:5rem;
+		right:24rem;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.faq a:hover{
+		color:white;
+	}
+
+	.donate a{
+		position: absolute;
+		top:5rem;
+		right:17rem;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.donate a:hover{
+		color:white;
+	}
+
+	.contact a{
+		position: absolute;
+		top:5rem;
+		right:10rem;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.contact a:hover{
+		color:white;
+	}
+
+	.privacy a{
+		position: absolute;
+		top:5rem;
+		right:3rem;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.privacy a:hover{
+		color:white;
+	}
+}
+
+/*457px header*/
+
+@media screen and (max-width: 457px) {
+  	.top-box{
+  		left: 0;
+		right: 0;
+		position: absolute;
+		background-color:#333;
+		color:#fff;
+		min-height:6.85rem;
+		top:0;
+		margin:auto;
+		border:0;
+		padding:0;
+		width: 100vw;
+		min-width: 200px;
+		font-size:1rem;
+	}
+
+	.top-box h1{
+		position: absolute;
+		left:30%;
+		top:1.25rem;
+		padding:0rem;
+		margin:0rem;
+		width: 5%;
+		font-size:8vw;
+	}
+
+	.top-box a{
+		color: rgb(255,255,255);
+		text-decoration: none;
+	}
+
+	.top-box img{
+		position: absolute;
+		padding:.25rem;
+		margin:0rem;
+		top:-.2rem;
+		width:5rem;
+		max-width: 230px;
+		height:auto;
+		max-height: 95px;
+	}
+
+	.faq a{
+		position: absolute;
+		top:5rem;
+		left:15%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.faq a:hover{
+		color:white;
+	}
+
+	.donate a{
+		position: absolute;
+		top:5rem;
+		left:35%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.donate a:hover{
+		color:white;
+	}
+
+	.contact a{
+		position: absolute;
+		top:5rem;
+		left:55%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.contact a:hover{
+		color:white;
+	}
+
+	.privacy a{
+		position: absolute;
+		top:5rem;
+		left:75%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.privacy a:hover{
+		color:white;
+	}
+}
+
+/*370px header*/
+
+@media screen and (max-width: 370px) {
+  	.top-box{
+  		left: 0;
+		right: 0;
+		position: absolute;
+		background-color:#333;
+		color:#fff;
+		min-height:6.85rem;
+		top:0;
+		margin:auto;
+		border:0;
+		padding:0;
+		width: 100vw;
+		min-width: 200px;
+		font-size:1rem;
+	}
+
+	.top-box h1{
+		position: absolute;
+		left:30%;
+		top:1.25rem;
+		padding:0rem;
+		margin:0rem;
+		width: 5%;
+		font-size:8vw;
+	}
+
+	.top-box a{
+		color: rgb(255,255,255);
+		text-decoration: none;
+	}
+
+	.top-box img{
+		position: absolute;
+		padding:.25rem;
+		margin:0rem;
+		top:-.2rem;
+		width:5rem;
+		max-width: 230px;
+		height:auto;
+		max-height: 95px;
+	}
+
+	.faq a{
+		position: absolute;
+		top:5rem;
+		left:5%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.faq a:hover{
+		color:white;
+	}
+
+	.donate a{
+		position: absolute;
+		top:5rem;
+		left:25%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.donate a:hover{
+		color:white;
+	}
+
+	.contact a{
+		position: absolute;
+		top:5rem;
+		left:55%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.contact a:hover{
+		color:white;
+	}
+
+	.privacy a{
+		position: absolute;
+		top:5rem;
+		left:80%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.privacy a:hover{
+		color:white;
+	}
+}
+
+/*default footer*/
+
+.bot-box {
+	left:-1%;
+	display: block;
+	position: absolute;
+	background-color:#333;
+	color:#fff;
+	height:8rem;
+	bottom: 0;
+	margin:0;
+	border:0;
+	width: 101%;
+	font-size:1rem;
+	overflow: hidden;
+}
+
+.home_foot a{
+	position: absolute;
+	bottom: 3rem;
+	left:20%;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.home_foot a:hover{
+	color:white;
+}
+
+.faq_foot a{
+	position: absolute;
+	bottom: 3rem;
+	left:35%;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.faq_foot a:hover{
+	color:white;
+}
+
+.donate_foot a{
+	position: absolute;
+	bottom: 3rem;
+	left:50%;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.donate_foot a:hover{
+	color:white;
+}
+
+.privacy_foot a{
+	position: absolute;
+	bottom: 3rem;
+	left:65%;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.privacy_foot a:hover{
+	color:white;
+}
+
+.contact_foot a{
+	position: absolute;
+	bottom: 3rem;
+	left:80%;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.contact_foot a:hover{
+	color:white;
+}
+
+.updated{
+	position: absolute;
+	bottom: 5.3rem;
+	right:1rem;
+	color: rgb(220,255,255);
+}
+
+/*370px footer*/
+
+@media screen and (max-width: 370px) {
+	.bot-box {
+		left:-1%;
+		display: block;
+		position: absolute;
+		background-color:#333;
+		color:#fff;
+		height:8rem;
+		bottom: 0;
+		margin:0;
+		border:0;
+		width: 101%;
+		font-size:1rem;
+		overflow: hidden;
+	}
+
+	.home_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:5%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.home_foot a:hover{
+		color:white;
+	}
+
+	.faq_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:25%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.faq_foot a:hover{
+		color:white;
+	}
+
+	.donate_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:40%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.donate_foot a:hover{
+		color:white;
+	}
+
+	.privacy_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:60%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.privacy_foot a:hover{
+		color:white;
+	}
+
+	.contact_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:80%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.contact_foot a:hover{
+		color:white;
+	}
+
+	.updated{
+		position: absolute;
+		bottom: 5.3rem;
+		right:1rem;
+		color: rgb(220,255,255);
+	}
+}
+
+/*default body*/
+
+.box-1 {
+	position: absolute;
+	left: .7rem;
+}
+
+.box-1 h2{
+	color: yellow;
+	position: absolute;
+	top:7rem;
+	left: 1rem;
+	font-size: 3.5rem;
+	text-decoration: underline;
+	text-decoration-thickness: .1em;
+}
+
+.box-1 ul{
+	left: 2.5rem;
+	color: white;
+	position: absolute;
+	top:12rem;
+	padding:0;
+	font-size: 2rem;
+}
+
+.box-1 li{
+	font-size: 2rem;
+	color: white;
+	padding:.5em;
+	padding-bottom: 1em;
+}
+
+/*1000px body*/
+@media screen and (max-width: 1000px) {
+	.box-1 {
+		position: absolute;
+		left: .7rem;
+	}
+
+	.box-1 h2{
+		color: yellow;
+		position: absolute;
+		top:7rem;
+		left: 1rem;
+		font-size: 3.5rem;
+		text-decoration: underline;
+		text-decoration-thickness: .1em;
+	}
+
+	.box-1 ul{
+		left: 2.5rem;
+		color: white;
+		position: absolute;
+		top:12rem;
+		padding:0;
+		font-size: 1.75rem;
+	}
+
+	.box-1 li{
+		color: white;
+		padding:.5em;
+		padding-bottom: 1em;
+		font-size: 1.5rem;
+	}
+}
+
+/*780px body*/
+@media screen and (max-width: 780px) {
+	.box-1 {
+		position: absolute;
+		left: .7rem;
+	}
+
+	.box-1 h2{
+		color: yellow;
+		position: absolute;
+		top:7rem;
+		left: 1rem;
+		font-size: 2.5rem;
+		text-decoration: underline;
+		text-decoration-thickness: .1em;
+	}
+
+	.box-1 ul{
+		left: 2.5rem;
+		color: white;
+		position: absolute;
+		top:12rem;
+		padding:0;
+		font-size: 1.75rem;
+	}
+
+	.box-1 li{
+		color: white;
+		padding:.5em;
+		padding-bottom: 1em;
+		font-size: 1.25rem;
+	}
+}
+
+/*645px body*/
+@media screen and (max-width: 645px) {
+	.box-1 {
+		position: absolute;
+		left: .7rem;
+	}
+
+	.box-1 h2{
+		color: yellow;
+		position: absolute;
+		top:7rem;
+		left: 1rem;
+		font-size: 2.5rem;
+		text-decoration: underline;
+		text-decoration-thickness: .1em;
+	}
+
+	.box-1 ul{
+		left: 2.5rem;
+		color: white;
+		position: absolute;
+		top:12rem;
+		padding:0;
+		font-size: 1.75rem;
+	}
+
+	.box-1 li{
+		color: white;
+		padding:.5em;
+		padding-bottom: 1em;
+		font-size: 1rem;
+	}
+}
+
+/*516px body*/
+@media screen and (max-width: 516px) {
+	.box-1 {
+		position: absolute;
+		left: .7rem;
+	}
+
+	.box-1 h2{
+		color: yellow;
+		position: absolute;
+		top:7rem;
+		left: 1rem;
+		font-size: 2.25rem;
+		text-decoration: underline;
+		text-decoration-thickness: .1em;
+	}
+
+	.box-1 ul{
+		left: 2.5rem;
+		color: white;
+		position: absolute;
+		top:11rem;
+		padding:0;
+		font-size: 1.75rem;
+	}
+
+	.box-1 li{
+		color: white;
+		padding:.5em;
+		padding-bottom: 1em;
+		font-size: .85rem;
+	}
+}
+
+/*475px body*/
+@media screen and (max-width: 475px) {
+	.box-1 {
+		position: absolute;
+		left: .7rem;
+	}
+
+	.box-1 h2{
+		color: yellow;
+		position: absolute;
+		top:7rem;
+		left: 1rem;
+		font-size: 7vw;
+		text-decoration: underline;
+		text-decoration-thickness: .1em;
+	}
+
+	.box-1 ul{
+		left: 2.5rem;
+		color: white;
+		position: absolute;
+		top:10rem;
+		padding:0;
+	}
+
+	.box-1 li{
+		color: white;
+		padding:.5em;
+		padding-bottom: 1em;
+		font-size: 3vw;
+	}
+}

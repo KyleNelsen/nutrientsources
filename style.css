@@ -1,0 +1,3069 @@
+/*
+Theme Name: NutrientSources
+Theme URI: nutrientsources.net
+Description: My theme
+Version: 5.0
+Author: Kyle
+Author URI: nutrientsources.net
+*/
+
+body{
+	background-color:#00000F;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	width:100%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*header*/
+
+.top-box{
+	position: absolute;
+	background-color:#333;
+	color:#fff;
+	min-height:6.85rem;
+	top:0rem;
+	left:0rem;
+	margin:auto;
+	border:0;
+	padding:0rem;
+	width: 100%;
+	min-width: 200px;
+	font-size:1rem;
+}
+
+.top-box h1{
+	position: absolute;
+	left:7.5rem;
+	top:2.25rem;
+	padding:0rem;
+	margin:0rem;
+	width: 5%;
+	font-size:2rem;
+}
+
+.top-box a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+
+.top-box img{
+	display: block;
+	position: absolute;
+	padding:.25rem;
+	margin:0rem;
+	top:-.2rem;
+	width:auto;
+	max-width: 230px;
+	height:auto;
+	max-height: 95px;
+}
+
+.select_nutrients form{
+	top: 2rem;
+	left: 7rem;
+	height:0rem;
+}
+
+.select_nutrients select{
+	top: 1.5rem;
+	left: 35.5rem;
+	width:7.25rem;
+	position: relative;
+	font-size: 1rem;
+	height:1.5rem;
+}
+
+.select_nutrients label{
+	top: 2.5rem;
+	position: absolute;
+	left: 27rem;
+}
+
+.select_ranking form{
+	top: 2rem;
+	left: 7rem;
+	height:0rem;
+}
+
+.select_ranking select{
+	top: 0rem;
+	left: 55.5rem;
+	width:6.25rem;
+	position: relative;
+	font-size: 1rem;
+	height:1.5rem;
+}
+
+.select_ranking label{
+	top: 2.5rem;
+	position: absolute;
+	left: 47rem;
+}
+
+.faq a{
+	position: absolute;
+	top:5rem;
+	right:24rem;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.faq a:hover{
+	color:white;
+}
+
+.donate a{
+	position: absolute;
+	top:5rem;
+	right:17rem;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.donate a:hover{
+	color:white;
+}
+
+.contact a{
+	position: absolute;
+	top:5rem;
+	right:10rem;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.contact a:hover{
+	color:white;
+}
+
+.privacy a{
+	position: absolute;
+	top:5rem;
+	right:3rem;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.privacy a:hover{
+	color:white;
+}
+
+.yellow-hover a{
+	text-decoration: none;
+	color:white;
+}
+
+.yellow-hover a:hover{
+	color:yellow;
+}
+
+/*mobile header*/
+@media screen and (max-width: 1000px) {
+  	.top-box{
+		position: absolute;
+		background-color:#333;
+		color:#fff;
+		min-height:6.85rem;
+		top:0rem;
+		left:0rem;
+		margin:auto;
+		border:0;
+		padding:0rem;
+		width: 100%;
+		min-width: 200px;
+		font-size:1rem;
+	}
+
+	.top-box h1{
+		display:none;
+		position: absolute;
+		left:7.5rem;
+		top:2.25rem;
+		padding:0rem;
+		margin:0rem;
+		width: 5%;
+		font-size:2rem;
+	}
+
+	.top-box a{
+		color: rgb(255,255,255);
+		text-decoration: none;
+	}
+
+	.top-box img{
+		position: absolute;
+		padding:.25rem;
+		margin:0rem;
+		top:-.2rem;
+		width:5rem;
+		max-width: 230px;
+		height:auto;
+		max-height: 95px;
+	}
+
+	.select_nutrients form{
+		top: 2rem;
+		left: 7rem;
+		height:0rem;
+	}
+
+	.select_nutrients select{
+		top: 1.4rem;
+		left: 7rem;
+		width:7.25rem;
+		position: relative;
+		font-size: 1rem;
+		height:1.5rem;
+	}
+
+	.select_nutrients label{
+		top: 1rem;
+		position: absolute;
+		left: 7rem;
+	}
+
+	.select_ranking form{
+		top: 2rem;
+		left: 10rem;
+		height:0rem;
+	}
+
+	.select_ranking select{
+		top: -0.1rem;
+		left: 17rem;
+		width:6.25rem;
+		position: relative;
+		font-size: 1rem;
+		height:1.5rem;
+	}
+
+	.select_ranking label{
+		top: 1rem;
+		position: absolute;
+		left: 17rem;
+	}
+
+	.faq a{
+		position: absolute;
+		top:5rem;
+		right:24rem;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.faq a:hover{
+		color:white;
+	}
+
+	.donate a{
+		position: absolute;
+		top:5rem;
+		right:17rem;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.donate a:hover{
+		color:white;
+	}
+
+	.contact a{
+		position: absolute;
+		top:5rem;
+		right:10rem;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.contact a:hover{
+		color:white;
+	}
+
+	.privacy a{
+		position: absolute;
+		top:5rem;
+		right:3rem;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.privacy a:hover{
+		color:white;
+	}
+}
+
+/*440px header*/
+@media screen and (max-width: 440px) {
+  	.top-box{
+		position: absolute;
+		background-color:#333;
+		color:#fff;
+		min-height:6.85rem;
+		top:0rem;
+		left:0rem;
+		margin:auto;
+		border:0;
+		padding:0rem;
+		width: 100%;
+		min-width: 200px;
+		font-size:1rem;
+	}
+
+	.top-box h1{
+		display:none;
+		position: absolute;
+		left:7.5rem;
+		top:2.25rem;
+		padding:0rem;
+		margin:0rem;
+		width: 5%;
+		font-size:2rem;
+	}
+
+	.top-box a{
+		color: rgb(255,255,255);
+		text-decoration: none;
+	}
+
+	.top-box img{
+		position: absolute;
+		padding:.25rem;
+		margin:0rem;
+		top:-.2rem;
+		width:5rem;
+		max-width: 230px;
+		height:auto;
+		max-height: 95px;
+	}
+
+	.select_nutrients form{
+		top: 2rem;
+		left: 7rem;
+		height:0rem;
+	}
+
+	.select_nutrients select{
+		top: 1.4rem;
+		left: 7rem;
+		width:7.25rem;
+		position: relative;
+		font-size: 1rem;
+		height:1.5rem;
+	}
+
+	.select_nutrients label{
+		top: 1rem;
+		position: absolute;
+		left: 7rem;
+	}
+
+	.select_ranking form{
+		top: 2rem;
+		left: 10rem;
+		height:0rem;
+	}
+
+	.select_ranking select{
+		top: -0.1rem;
+		left: 17rem;
+		width:6.25rem;
+		position: relative;
+		font-size: 1rem;
+		height:1.5rem;
+	}
+
+	.select_ranking label{
+		top: 1rem;
+		position: absolute;
+		left: 17rem;
+	}
+
+	.faq a{
+		position: absolute;
+		top:5rem;
+		left:10%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.faq a:hover{
+		color:white;
+	}
+
+	.donate a{
+		position: absolute;
+		top:5rem;
+		left:30%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.donate a:hover{
+		color:white;
+	}
+
+	.contact a{
+		position: absolute;
+		top:5rem;
+		left:55%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.contact a:hover{
+		color:white;
+	}
+
+	.privacy a{
+		position: absolute;
+		top:5rem;
+		left:80%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.privacy a:hover{
+		color:white;
+	}
+}
+
+/*400px header*/
+@media screen and (max-width: 400px) {
+  	.top-box{
+		position: absolute;
+		background-color:#333;
+		color:#fff;
+		min-height:6.85rem;
+		top:0rem;
+		left:0rem;
+		margin:auto;
+		border:0;
+		padding:0rem;
+		width: 100%;
+		min-width: 200px;
+		font-size:1rem;
+	}
+
+	.top-box h1{
+		display:none;
+		position: absolute;
+		left:7.5rem;
+		top:2.25rem;
+		padding:0rem;
+		margin:0rem;
+		width: 5%;
+		font-size:2rem;
+	}
+
+	.top-box a{
+		color: rgb(255,255,255);
+		text-decoration: none;
+	}
+
+	.top-box img{
+		position: absolute;
+		padding:.25rem;
+		margin:0rem;
+		top:-.2rem;
+		width:5rem;
+		max-width: 230px;
+		height:auto;
+		max-height: 95px;
+	}
+
+	.select_nutrients form{
+		top: 2rem;
+		left: 7rem;
+		height:0rem;
+	}
+
+	.select_nutrients select{
+		top: 1.4rem;
+		left: 6rem;
+		width:7.25rem;
+		position: relative;
+		font-size: 1rem;
+		height:1.5rem;
+	}
+
+	.select_nutrients label{
+		top: 1rem;
+		position: absolute;
+		left: 6rem;
+	}
+
+	.select_ranking form{
+		top: 2rem;
+		left: 10rem;
+		height:0rem;
+	}
+
+	.select_ranking select{
+		top: -0.1rem;
+		left: 16rem;
+		width:6.25rem;
+		position: relative;
+		font-size: 1rem;
+		height:1.5rem;
+	}
+
+	.select_ranking label{
+		top: 1rem;
+		position: absolute;
+		left: 16rem;
+	}
+
+	.faq a{
+		position: absolute;
+		top:5rem;
+		left:10%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.faq a:hover{
+		color:white;
+	}
+
+	.donate a{
+		position: absolute;
+		top:5rem;
+		left:30%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.donate a:hover{
+		color:white;
+	}
+
+	.contact a{
+		position: absolute;
+		top:5rem;
+		left:55%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.contact a:hover{
+		color:white;
+	}
+
+	.privacy a{
+		position: absolute;
+		top:5rem;
+		left:80%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.privacy a:hover{
+		color:white;
+	}
+}
+
+/*385px header*/
+@media screen and (max-width: 385px) {
+  	.top-box{
+		position: absolute;
+		background-color:#333;
+		color:#fff;
+		min-height:6.85rem;
+		top:0rem;
+		left:0rem;
+		margin:auto;
+		border:0;
+		padding:0rem;
+		width: 100%;
+		min-width: 200px;
+		font-size:1rem;
+	}
+
+	.top-box h1{
+		display:none;
+		position: absolute;
+		left:7.5rem;
+		top:2.25rem;
+		padding:0rem;
+		margin:0rem;
+		width: 5%;
+		font-size:2rem;
+	}
+
+	.top-box a{
+		color: rgb(255,255,255);
+		text-decoration: none;
+	}
+
+	.top-box img{
+		position: absolute;
+		padding:.25rem;
+		margin:0rem;
+		top:-.2rem;
+		width:5rem;
+		max-width: 230px;
+		height:auto;
+		max-height: 95px;
+	}
+
+	.select_nutrients form{
+		top: 2rem;
+		left: 7rem;
+		height:0rem;
+	}
+
+	.select_nutrients select{
+		top: 1.4rem;
+		left: 6rem;
+		width:7.25rem;
+		position: relative;
+		font-size: 1rem;
+		height:1.5rem;
+	}
+
+	.select_nutrients label{
+		top: 1rem;
+		position: absolute;
+		left: 6rem;
+		font-size: .85em;
+	}
+
+	.select_ranking form{
+		top: 2rem;
+		left: 10rem;
+		height:0rem;
+	}
+
+	.select_ranking select{
+		top: -0.1rem;
+		left: 15rem;
+		width:6.25rem;
+		position: relative;
+		font-size: 1rem;
+		height:1.5rem;
+	}
+
+	.select_ranking label{
+		top: 1rem;
+		position: absolute;
+		left: 15rem;
+		font-size: .85em;
+	}
+
+	.faq a{
+		position: absolute;
+		top:5rem;
+		left:10%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.faq a:hover{
+		color:white;
+	}
+
+	.donate a{
+		position: absolute;
+		top:5rem;
+		left:30%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.donate a:hover{
+		color:white;
+	}
+
+	.contact a{
+		position: absolute;
+		top:5rem;
+		left:55%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.contact a:hover{
+		color:white;
+	}
+
+	.privacy a{
+		position: absolute;
+		top:5rem;
+		left:80%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.privacy a:hover{
+		color:white;
+	}
+}
+
+/*360px header*/
+@media screen and (max-width: 360px) {
+  	.top-box{
+		position: absolute;
+		background-color:#333;
+		color:#fff;
+		min-height:6.85rem;
+		top:0rem;
+		left:0rem;
+		margin:auto;
+		border:0;
+		padding:0rem;
+		width: 100%;
+		min-width: 200px;
+		font-size:1rem;
+	}
+
+	.top-box h1{
+		display:none;
+		position: absolute;
+		left:7.5rem;
+		top:2.25rem;
+		padding:0rem;
+		margin:0rem;
+		width: 5%;
+		font-size:2rem;
+	}
+
+	.top-box a{
+		color: rgb(255,255,255);
+		text-decoration: none;
+	}
+
+	.top-box img{
+		position: absolute;
+		padding:.25rem;
+		margin:0rem;
+		top:-.2rem;
+		width:5rem;
+		max-width: 230px;
+		height:auto;
+		max-height: 95px;
+	}
+
+	.select_nutrients form{
+		top: 2rem;
+		left: 7rem;
+		height:0rem;
+	}
+
+	.select_nutrients select{
+		top: 1.4rem;
+		left: 6rem;
+		width:7.25rem;
+		position: relative;
+		font-size: 1rem;
+		height:1.5rem;
+	}
+
+	.select_nutrients label{
+		top: 1rem;
+		position: absolute;
+		left: 6rem;
+		font-size: .75em;
+	}
+
+	.select_ranking form{
+		top: 2rem;
+		left: 10rem;
+		height:0rem;
+	}
+
+	.select_ranking select{
+		top: -0.1rem;
+		left: 15rem;
+		width:6.25rem;
+		position: relative;
+		font-size: 1rem;
+		height:1.5rem;
+	}
+
+	.select_ranking label{
+		top: 1rem;
+		position: absolute;
+		left: 15rem;
+		font-size: .75em;
+	}
+
+	.faq a{
+		position: absolute;
+		top:5rem;
+		left:10%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.faq a:hover{
+		color:white;
+	}
+
+	.donate a{
+		position: absolute;
+		top:5rem;
+		left:30%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.donate a:hover{
+		color:white;
+	}
+
+	.contact a{
+		position: absolute;
+		top:5rem;
+		left:55%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.contact a:hover{
+		color:white;
+	}
+
+	.privacy a{
+		position: absolute;
+		top:5rem;
+		left:80%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.privacy a:hover{
+		color:white;
+	}
+}
+
+/*footer*/
+.bot-box {
+	display: block;
+	position: absolute;
+	background-color:#333;
+	color:#fff;
+	height:8rem;
+	top: 324.5em;
+	margin:0;
+	border:0;
+	padding:0;
+	width: 100%;
+	font-size:1rem;
+	overflow: hidden;
+}
+
+.home_foot a{
+	position: absolute;
+	bottom: 3rem;
+	left:20%;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.home_foot a:hover{
+	color:white;
+}
+
+.faq_foot a{
+	position: absolute;
+	bottom: 3rem;
+	left:35%;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.faq_foot a:hover{
+	color:white;
+}
+
+.donate_foot a{
+	position: absolute;
+	bottom: 3rem;
+	left:50%;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.donate_foot a:hover{
+	color:white;
+}
+
+.privacy_foot a{
+	position: absolute;
+	bottom: 3rem;
+	left:65%;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.privacy_foot a:hover{
+	color:white;
+}
+
+.contact_foot a{
+	position: absolute;
+	bottom: 3rem;
+	left:80%;
+	color: rgb(255,255,50);
+	text-decoration: none;
+}
+
+.contact_foot a:hover{
+	color:white;
+}
+
+.updated{
+	position: absolute;
+	bottom: 5.3rem;
+	right:1rem;
+	color: rgb(220,255,255);
+}
+
+/*475px header*/
+@media screen and (max-width: 475px) {
+	.bot-box {
+		display: block;
+		position: absolute;
+		background-color:#333;
+		color:#fff;
+		height:8rem;
+		top: 280em;
+		margin:0;
+		border:0;
+		padding:0;
+		width: 100%;
+		font-size:1rem;
+		overflow: hidden;
+	}
+
+	.home_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:20%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.home_foot a:hover{
+		color:white;
+	}
+
+	.faq_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:35%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.faq_foot a:hover{
+		color:white;
+	}
+
+	.donate_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:50%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.donate_foot a:hover{
+		color:white;
+	}
+
+	.privacy_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:65%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.privacy_foot a:hover{
+		color:white;
+	}
+
+	.contact_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:80%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.contact_foot a:hover{
+		color:white;
+	}
+
+	.updated{
+		position: absolute;
+		bottom: 5.3rem;
+		right:1rem;
+		color: rgb(220,255,255);
+	}
+}
+
+/*425px header*/
+@media screen and (max-width: 425px) {
+	.bot-box {
+		display: block;
+		position: absolute;
+		background-color:#333;
+		color:#fff;
+		height:8rem;
+		top: 260em;
+		margin:0;
+		border:0;
+		padding:0;
+		width: 100%;
+		font-size:1rem;
+		overflow: hidden;
+	}
+
+	.home_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:20%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.home_foot a:hover{
+		color:white;
+	}
+
+	.faq_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:35%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.faq_foot a:hover{
+		color:white;
+	}
+
+	.donate_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:50%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.donate_foot a:hover{
+		color:white;
+	}
+
+	.privacy_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:65%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.privacy_foot a:hover{
+		color:white;
+	}
+
+	.contact_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:80%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.contact_foot a:hover{
+		color:white;
+	}
+
+	.updated{
+		position: absolute;
+		bottom: 5.3rem;
+		right:1rem;
+		color: rgb(220,255,255);
+	}
+}
+
+/*405px header*/
+@media screen and (max-width: 405px) {
+	.bot-box {
+		display: block;
+		position: absolute;
+		background-color:#333;
+		color:#fff;
+		height:8rem;
+		top: 230em;
+		margin:0;
+		border:0;
+		padding:0;
+		width: 100%;
+		font-size:1rem;
+		overflow: hidden;
+	}
+
+	.home_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:20%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.home_foot a:hover{
+		color:white;
+	}
+
+	.faq_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:35%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.faq_foot a:hover{
+		color:white;
+	}
+
+	.donate_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:50%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.donate_foot a:hover{
+		color:white;
+	}
+
+	.privacy_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:65%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.privacy_foot a:hover{
+		color:white;
+	}
+
+	.contact_foot a{
+		position: absolute;
+		bottom: 3rem;
+		left:80%;
+		color: rgb(255,255,50);
+		text-decoration: none;
+	}
+
+	.contact_foot a:hover{
+		color:white;
+	}
+
+	.updated{
+		position: absolute;
+		bottom: 5.3rem;
+		right:1rem;
+		color: rgb(220,255,255);
+	}
+}
+
+/*body*/
+.box-1{
+	position: absolute;
+	left:1%;
+	top:7.15rem;
+	margin:0rem;
+	border:0rem;
+	padding:0rem;
+	background-color:#222;
+	color:#fff;
+	width:98%;
+}
+
+.box-1 p {
+	position: relative;
+	top:-.33rem;
+	left:1rem;
+	padding:0rem;
+	max-width: 95%;
+	text-align: center;
+}
+
+.box-3{
+	position: absolute;
+	padding-top:1.2rem;
+	top:9.4rem;
+	margin:0;
+	color:#fff;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 8.5rem;
+	overflow-x: hidden;
+}
+
+@media screen and (max-width: 1590px) {
+	.box-3{
+		position: absolute;
+		padding-top:1.2rem;
+		top:10.6rem;
+		margin:0;
+		color:#fff;
+		text-align: center;
+		width: 100%;
+		padding-bottom: 8.5rem;
+		overflow-x: hidden;
+	}
+}
+
+@media screen and (max-width: 834px) {
+	.box-3{
+		position: absolute;
+		padding-top:1.2rem;
+		top:11.8rem;
+		margin:0;
+		color:#fff;
+		text-align: center;
+		width: 100%;
+		padding-bottom: 8.5rem;
+		overflow-x: hidden;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.box-3{
+		position: absolute;
+		padding-top:1.2rem;
+		top:12.9rem;
+		margin:0;
+		color:#fff;
+		text-align: center;
+		width: 100%;
+		padding-bottom: 8.5rem;
+		overflow-x: hidden;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.box-3{
+		position: absolute;
+		padding-top:1.2rem;
+		top:14.1rem;
+		margin:0;
+		color:#fff;
+		text-align: center;
+		width: 100%;
+		padding-bottom: 8.5rem;
+		overflow-x: hidden;
+	}
+}
+
+@media screen and (max-width: 344px) {
+	.box-3{
+		position: absolute;
+		padding-top:1.2rem;
+		top:15.3rem;
+		margin:0;
+		color:#fff;
+		text-align: center;
+		width: 100%;
+		padding-bottom: 8.5rem;
+		overflow-x: hidden;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.box-3{
+		position: absolute;
+		padding-top:1.2rem;
+		top:16.5rem;
+		margin:0;
+		color:#fff;
+		text-align: center;
+		width: 100%;
+		padding-bottom: 8.5rem;
+		overflow-x: hidden;
+	}
+}
+
+@media screen and (max-width: 261px) {
+	.box-3{
+		position: absolute;
+		padding-top:1.2rem;
+		top:17.65rem;
+		margin:0;
+		color:#fff;
+		text-align: center;
+		width: 100%;
+		padding-bottom: 8.5rem;
+		overflow-x: hidden;
+	}
+}
+
+@media screen and (max-width: 236px) {
+	.box-3{
+		position: absolute;
+		padding-top:1.2rem;
+		top:18.85rem;
+		margin:0;
+		color:#fff;
+		text-align: center;
+		width: 100%;
+		padding-bottom: 8.5rem;
+		overflow-x: hidden;
+	}
+}
+
+.box-3 th{
+	border: .05rem solid #555555;
+	padding:.25rem;
+	max-width: 15rem;
+	width:20%;
+}
+
+.box-3 td{
+	border: .05rem solid #555555;
+	padding:.25rem;
+	white-space: nowrap;
+	margin:0%;
+	overflow: hidden;
+  	max-width: 15rem;
+  	width:20%;
+}
+
+th:nth-child(1){
+	max-width: 15rem;
+  	width:55%;
+}
+
+td:nth-child(1){
+	max-width: 15rem;
+  	width:55%;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(30,30,30);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(0,0,0);
+}
+
+tr:hover{
+	background-color: rgb(100,100,100);
+}
+
+th:nth-child(4){
+	display: none;
+}
+
+td:nth-child(4){
+	display: none;
+}
+
+th:nth-child(5){
+	display: none;
+}
+
+td:nth-child(5){
+	display: none;
+}
+
+th:nth-child(6){
+	display: none;
+}
+
+td:nth-child(6){
+	display: none;
+}
+
+th:nth-child(7){
+	display: none;
+}
+
+td:nth-child(7){
+	display: none;
+}
+
+th:nth-child(8){
+	display: none;
+}
+
+td:nth-child(8){
+	display: none;
+}
+
+th:nth-child(9){
+	display: none;
+}
+
+td:nth-child(9){
+	display: none;
+}
+
+th:nth-child(10){
+	display: none;
+}
+
+td:nth-child(10){
+	display: none;
+}
+
+th:nth-child(11){
+	display: none;
+}
+
+td:nth-child(11){
+	display: none;
+}
+
+#A-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#A-table th{
+	background-color: rgb(35,10,10);
+}
+
+#B1-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#B1-table th{
+	background-color: rgb(35,25,10);
+}
+
+#B2-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#B2-table th{
+	background-color: rgb(35,35,10);
+}
+
+#B3-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#B3-table th{
+	background-color: rgb(10,35,10);
+}
+
+#B5-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#B5-table th{
+	background-color: rgb(10,10,35);
+}
+
+#B6-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#B6-table th{
+	background-color: rgb(10,35,35);
+}
+
+#B7-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#B7-table th{
+	background-color: rgb(35,10,35);
+}
+
+#B9-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#B9-table th{
+	background-color: rgb(35,10,10);
+}
+
+#B12-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#B12-table th{
+	background-color: rgb(35,25,10);
+}
+
+#C-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#C-table th{
+	background-color: rgb(35,35,10);
+}
+
+#D-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#D-table th{
+	background-color: rgb(10,35,10);
+}
+
+#E-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#E-table th{
+	background-color: rgb(10,10,35);
+}
+
+#K-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#K-table th{
+	background-color: rgb(10,35,35);
+}
+
+#Choline-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Choline-table th{
+	background-color: rgb(35,10,35);
+}
+
+#Calcium-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Calcium-table th{
+	background-color: rgb(35,10,10);
+}
+
+#Copper-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Copper-table th{
+	background-color: rgb(35,25,10);
+}
+
+#Iodine-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Iodine-table th{
+	background-color: rgb(35,35,10);
+}
+
+#Iron-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Iron-table th{
+	background-color: rgb(10,35,10);
+}
+
+#Magnesium-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Magnesium-table th{
+	background-color: rgb(10,10,35);
+}
+
+#Manganese-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Manganese-table th{
+	background-color: rgb(10,35,35);
+}
+
+#Phosphorus-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Phosphorus-table th{
+	background-color: rgb(35,10,35);
+}
+
+#Potassium-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Potassium-table th{
+	background-color: rgb(35,10,10);
+}
+
+#Selenium-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Selenium-table th{
+	background-color: rgb(35,25,10);
+}
+
+#Sodium-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Sodium-table th{
+	background-color: rgb(35,35,10);
+}
+
+#Zinc-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Zinc-table th{
+	background-color: rgb(10,35,10);
+}
+
+#Protein-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Protein-table th{
+	background-color: rgb(10,10,35);
+}
+
+#Fats-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Fats-table th{
+	background-color: rgb(10,35,35);
+	width:10%;
+}
+
+#Carbs-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Carbs-table th{
+	background-color: rgb(35,10,35);
+	width:10%;
+}
+
+#Fiber-table{
+	font-size: 1rem;
+	font-family: Verdana,sans-serif;
+	border-spacing: 0;
+	width:100%;
+	padding:0;
+	background-color: rgb(10,10,10);
+	overflow-x: scroll;
+}
+
+#Fiber-table th{
+	background-color: rgb(35,10,10);
+}
+
+/*475px table*/
+@media screen and (max-width: 475px) {
+	#A-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#A-table th{
+		background-color: rgb(35,10,10);
+	}
+
+	#B1-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B1-table th{
+		background-color: rgb(35,25,10);
+	}
+
+	#B2-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B2-table th{
+		background-color: rgb(35,35,10);
+	}
+
+	#B3-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B3-table th{
+		background-color: rgb(10,35,10);
+	}
+
+	#B5-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B5-table th{
+		background-color: rgb(10,10,35);
+	}
+
+	#B6-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B6-table th{
+		background-color: rgb(10,35,35);
+	}
+
+	#B7-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B7-table th{
+		background-color: rgb(35,10,35);
+	}
+
+	#B9-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B9-table th{
+		background-color: rgb(35,10,10);
+	}
+
+	#B12-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B12-table th{
+		background-color: rgb(35,25,10);
+	}
+
+	#C-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#C-table th{
+		background-color: rgb(35,35,10);
+	}
+
+	#D-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#D-table th{
+		background-color: rgb(10,35,10);
+	}
+
+	#E-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#E-table th{
+		background-color: rgb(10,10,35);
+	}
+
+	#K-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#K-table th{
+		background-color: rgb(10,35,35);
+	}
+
+	#Choline-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Choline-table th{
+		background-color: rgb(35,10,35);
+	}
+
+	#Calcium-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Calcium-table th{
+		background-color: rgb(35,10,10);
+	}
+
+	#Copper-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Copper-table th{
+		background-color: rgb(35,25,10);
+	}
+
+	#Iodine-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Iodine-table th{
+		background-color: rgb(35,35,10);
+	}
+
+	#Iron-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Iron-table th{
+		background-color: rgb(10,35,10);
+	}
+
+	#Magnesium-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Magnesium-table th{
+		background-color: rgb(10,10,35);
+	}
+
+	#Manganese-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Manganese-table th{
+		background-color: rgb(10,35,35);
+	}
+
+	#Phosphorus-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Phosphorus-table th{
+		background-color: rgb(35,10,35);
+	}
+
+	#Potassium-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Potassium-table th{
+		background-color: rgb(35,10,10);
+	}
+
+	#Selenium-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Selenium-table th{
+		background-color: rgb(35,25,10);
+	}
+
+	#Sodium-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Sodium-table th{
+		background-color: rgb(35,35,10);
+	}
+
+	#Zinc-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Zinc-table th{
+		background-color: rgb(10,35,10);
+	}
+
+	#Protein-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Protein-table th{
+		background-color: rgb(10,10,35);
+	}
+
+	#Fats-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Fats-table th{
+		background-color: rgb(10,35,35);
+		width:10%;
+	}
+
+	#Carbs-table{
+		font-size: .75rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Carbs-table th{
+		background-color: rgb(35,10,35);
+		width:10%;
+	}
+
+	#Fiber-table{
+		font-size: 1rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Fiber-table th{
+		background-color: rgb(35,10,10);
+	}
+}
+
+/*475px table*/
+@media screen and (max-width: 425px) {
+	#A-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#A-table th{
+		background-color: rgb(35,10,10);
+	}
+
+	#B1-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B1-table th{
+		background-color: rgb(35,25,10);
+	}
+
+	#B2-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B2-table th{
+		background-color: rgb(35,35,10);
+	}
+
+	#B3-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B3-table th{
+		background-color: rgb(10,35,10);
+	}
+
+	#B5-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B5-table th{
+		background-color: rgb(10,10,35);
+	}
+
+	#B6-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B6-table th{
+		background-color: rgb(10,35,35);
+	}
+
+	#B7-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B7-table th{
+		background-color: rgb(35,10,35);
+	}
+
+	#B9-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B9-table th{
+		background-color: rgb(35,10,10);
+	}
+
+	#B12-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B12-table th{
+		background-color: rgb(35,25,10);
+	}
+
+	#C-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#C-table th{
+		background-color: rgb(35,35,10);
+	}
+
+	#D-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#D-table th{
+		background-color: rgb(10,35,10);
+	}
+
+	#E-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#E-table th{
+		background-color: rgb(10,10,35);
+	}
+
+	#K-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#K-table th{
+		background-color: rgb(10,35,35);
+	}
+
+	#Choline-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Choline-table th{
+		background-color: rgb(35,10,35);
+	}
+
+	#Calcium-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Calcium-table th{
+		background-color: rgb(35,10,10);
+	}
+
+	#Copper-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Copper-table th{
+		background-color: rgb(35,25,10);
+	}
+
+	#Iodine-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Iodine-table th{
+		background-color: rgb(35,35,10);
+	}
+
+	#Iron-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Iron-table th{
+		background-color: rgb(10,35,10);
+	}
+
+	#Magnesium-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Magnesium-table th{
+		background-color: rgb(10,10,35);
+	}
+
+	#Manganese-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Manganese-table th{
+		background-color: rgb(10,35,35);
+	}
+
+	#Phosphorus-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Phosphorus-table th{
+		background-color: rgb(35,10,35);
+	}
+
+	#Potassium-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Potassium-table th{
+		background-color: rgb(35,10,10);
+	}
+
+	#Selenium-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Selenium-table th{
+		background-color: rgb(35,25,10);
+	}
+
+	#Sodium-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Sodium-table th{
+		background-color: rgb(35,35,10);
+	}
+
+	#Zinc-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Zinc-table th{
+		background-color: rgb(10,35,10);
+	}
+
+	#Protein-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Protein-table th{
+		background-color: rgb(10,10,35);
+	}
+
+	#Fats-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Fats-table th{
+		background-color: rgb(10,35,35);
+		width:10%;
+	}
+
+	#Carbs-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Carbs-table th{
+		background-color: rgb(35,10,35);
+		width:10%;
+	}
+
+	#Fiber-table{
+		font-size: 1rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Fiber-table th{
+		background-color: rgb(35,10,10);
+	}
+}
+
+/*405px table*/
+@media screen and (max-width: 405px) {
+	#A-table{
+		font-size: .45rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#A-table th{
+		background-color: rgb(35,10,10);
+	}
+
+	#B1-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B1-table th{
+		background-color: rgb(35,25,10);
+	}
+
+	#B2-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B2-table th{
+		background-color: rgb(35,35,10);
+	}
+
+	#B3-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B3-table th{
+		background-color: rgb(10,35,10);
+	}
+
+	#B5-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B5-table th{
+		background-color: rgb(10,10,35);
+	}
+
+	#B6-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B6-table th{
+		background-color: rgb(10,35,35);
+	}
+
+	#B7-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B7-table th{
+		background-color: rgb(35,10,35);
+	}
+
+	#B9-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B9-table th{
+		background-color: rgb(35,10,10);
+	}
+
+	#B12-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#B12-table th{
+		background-color: rgb(35,25,10);
+	}
+
+	#C-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#C-table th{
+		background-color: rgb(35,35,10);
+	}
+
+	#D-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#D-table th{
+		background-color: rgb(10,35,10);
+	}
+
+	#E-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#E-table th{
+		background-color: rgb(10,10,35);
+	}
+
+	#K-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#K-table th{
+		background-color: rgb(10,35,35);
+	}
+
+	#Choline-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Choline-table th{
+		background-color: rgb(35,10,35);
+	}
+
+	#Calcium-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Calcium-table th{
+		background-color: rgb(35,10,10);
+	}
+
+	#Copper-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Copper-table th{
+		background-color: rgb(35,25,10);
+	}
+
+	#Iodine-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Iodine-table th{
+		background-color: rgb(35,35,10);
+	}
+
+	#Iron-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Iron-table th{
+		background-color: rgb(10,35,10);
+	}
+
+	#Magnesium-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Magnesium-table th{
+		background-color: rgb(10,10,35);
+	}
+
+	#Manganese-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Manganese-table th{
+		background-color: rgb(10,35,35);
+	}
+
+	#Phosphorus-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Phosphorus-table th{
+		background-color: rgb(35,10,35);
+	}
+
+	#Potassium-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Potassium-table th{
+		background-color: rgb(35,10,10);
+	}
+
+	#Selenium-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Selenium-table th{
+		background-color: rgb(35,25,10);
+	}
+
+	#Sodium-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Sodium-table th{
+		background-color: rgb(35,35,10);
+	}
+
+	#Zinc-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Zinc-table th{
+		background-color: rgb(10,35,10);
+	}
+
+	#Protein-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Protein-table th{
+		background-color: rgb(10,10,35);
+	}
+
+	#Fats-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Fats-table th{
+		background-color: rgb(10,35,35);
+		width:10%;
+	}
+
+	#Carbs-table{
+		font-size: .55rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Carbs-table th{
+		background-color: rgb(35,10,35);
+		width:10%;
+	}
+
+	#Fiber-table{
+		font-size: 1rem;
+		font-family: Verdana,sans-serif;
+		border-spacing: 0;
+		width:100%;
+		padding:0;
+		background-color: rgb(10,10,10);
+		overflow-x: scroll;
+	}
+
+	#Fiber-table th{
+		background-color: rgb(35,10,10);
+	}
+}
